@@ -21,3 +21,5 @@
 /libuseless.la
 /Makefile
 /stamp-h1
+/config.log
+/config.status
