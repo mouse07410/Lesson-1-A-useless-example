@@ -13,10 +13,10 @@ AC_LANG(C)
 
 AC_CHECK_HEADERS([openssl/engine.h])
 
-#AX_CHECK_OPENSSL(
-#  [have_openssl=yes],
-#  [AC_MSG_FAILURE([could not locate OpenSSL])]
-#)
+AX_CHECK_OPENSSL(
+  [have_openssl=yes],
+  [AC_MSG_FAILURE([could not locate OpenSSL])]
+)
 
 #if test "x$have_openssl" = "xyes"; then
   LIBS="$LIBS $OPENSSL_LIBS"
